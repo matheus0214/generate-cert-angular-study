@@ -4,6 +4,7 @@ import {Navbar} from './_components/navbar/navbar'
 import {PrimaryButton} from './_components/primary-button/primary-button'
 import {SecondaryButton} from './_components/secondary-button/secondary-button'
 import { CommonModule } from '@angular/common';
+import { CertificateItem } from './_components/certificate-item/certificate-item';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import { CommonModule } from '@angular/common';
     Navbar,
     CommonModule,
     PrimaryButton,
-    SecondaryButton
+    SecondaryButton,
+    CertificateItem
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
