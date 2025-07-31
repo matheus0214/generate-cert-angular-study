@@ -5,6 +5,8 @@ import {PrimaryButton} from './_components/primary-button/primary-button'
 import {SecondaryButton} from './_components/secondary-button/secondary-button'
 import { CommonModule } from '@angular/common';
 import { CertificateItem } from './_components/certificate-item/certificate-item';
+import { BaseUi } from './_components/base-ui/base-ui';
+import { Certificates } from './pages/certificates/certificates';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +16,9 @@ import { CertificateItem } from './_components/certificate-item/certificate-item
     CommonModule,
     PrimaryButton,
     SecondaryButton,
-    CertificateItem
+    CertificateItem,
+    BaseUi,
+    Certificates
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
