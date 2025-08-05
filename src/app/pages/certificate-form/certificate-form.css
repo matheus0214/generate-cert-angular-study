@@ -1,69 +1,78 @@
 .custom-card {
-    gap: 32px;
-    border-radius: 8px;
-    border: 1px solid #E2E8F0;
-    padding: 32px;
-    max-width: 672px;
+  gap: 32px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  padding: 32px;
+  max-width: 672px;
 }
 
 .card-title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0;
-    color: #1A2856;
-    margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #1a2856;
+  margin-bottom: 20px;
 }
 
 .task-group {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 label {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0;
-    color: #1A2856;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #1a2856;
 }
 
 .item-list {
-    width: 100%;
-    border: 1px soli3 #E2E9F0;
-    border-radius: 8px;
-    padding: 16px;
-    gap: 12px;
+  width: 100%;
+  border: 1px soli3 #e2e9f0;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 12px;
 }
 
 .item-list hr {
-    al: unset;
-    display: block;
-    background-color: #E2E8F0;
-    height: 1px;
-    margin: 12px 0;
+  al: unset;
+  display: block;
+  background-color: #e2e8f0;
+  height: 1px;
+  margin: 12px 0;
 }
 
 .item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .remove-btn i {
-    padding: 5.75px;
-    color: #E95F5F;
-    font-size: 12.5px;
-    border-radius: 4px;
-    cursor: pointer;
+  padding: 5.75px;
+  color: #e95f5f;
+  font-size: 12.5px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .remove-btn i:hover {
-    background-color: #E2E8F0;
+  background-color: #e2e8f0;
 }
 
 .custom-input {
-    border: 1px solid #E2E8F0;
-    border-radius: 6px;
-    padding: 8px 12px;
-    height: 40px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 8px 12px;
+  height: 40px;
+}
+
+.custom-input:focus {
+  border: 1px solid #3b5ac2;
+  box-shadow: none;
+}
+
+.custom-input-group:has(input:focus) label {
+  color: #3b5ac2;
 }
